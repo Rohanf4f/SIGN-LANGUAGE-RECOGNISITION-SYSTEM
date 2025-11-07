@@ -79,7 +79,7 @@ Many people are not familiar with sign language, making communication with mute 
 ## 👩‍💻 Author
 
 **Project Name:** Sign Language Recognition System  
-**Developer:** Rohan P.  
+**Developer:** Rohan Patil.  
 **Core Technologies:** CNN, MediaPipe, TensorFlow, OpenCV  
 **Accuracy:** 97%  
 
