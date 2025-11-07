@@ -1,94 +1,98 @@
-# 🧠 Sign Language Recognition System
+# 🧠 Sign Language Recognition System  
 
-A deep learning-based **Sign Language Recognition System** that utilizes **Convolutional Neural Networks (CNN)** and **MediaPipe** to detect and interpret sign language gestures in real-time — bridging the communication gap between mute and hearing individuals.
-
----
-
-## 🎯 Project Overview
-
-The goal of this project is to create an intelligent system that can accurately recognize and translate **hand gestures** from sign language into readable or audible text.  
-Many people are not familiar with sign language, making communication with mute individuals challenging. This project provides a **technological bridge** to overcome that barrier.
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-ff6f00?logo=tensorflow)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Real%20Time%20Hand%20Tracking-orange?logo=google)
+![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-green?logo=opencv)
+![Accuracy](https://img.shields.io/badge/Accuracy-97%25-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
-## 🧩 Key Features
+## 🎯 Project Overview  
+
+The **Sign Language Recognition System** leverages **Convolutional Neural Networks (CNN)** and **MediaPipe** to identify and interpret sign language gestures in real-time.  
+This system aims to **bridge the communication gap** between mute and hearing individuals — allowing smoother and more inclusive interactions.  
+
+---
+
+## 🧩 Key Features  
 
 ✅ Real-time **hand detection and tracking** using **MediaPipe**  
-✅ High-accuracy gesture classification with **CNN architecture**  
-✅ Dataset of **10,000+ labeled images** for training and testing  
-✅ Supports **all alphabetic gestures (A–Z)**  
-✅ Enables **seamless communication** between deaf and hearing individuals  
+✅ High-accuracy gesture classification via **CNN**  
+✅ Dataset of **10,000+ hand sign images**  
+✅ Supports **A–Z alphabet gestures**  
+✅ Fast and efficient real-time predictions  
 
 ---
 
-## 📊 Dataset Preparation
+## 📊 Dataset Preparation  
 
-- Images of various **hand signs representing each alphabet letter** were captured.  
-- Ensured **uniform background** and **consistent lighting** for better model accuracy.  
-- Dataset split:
-  - **80%** → Training
-  - **20%** → Testing
-- Normalization applied for optimal CNN performance.  
+- Collected **10,000 images** covering various hand signs for each alphabet letter.  
+- Maintained **uniform backgrounds** and **consistent lighting** to ensure accuracy.  
+- Split data:
+  - 🧠 **80%** → Training  
+  - 🧪 **20%** → Testing  
+- Applied **normalization** for better convergence and model stability.  
 
 ---
 
-## ⚙️ Technologies Used
+## ⚙️ Tech Stack  
 
 | Category | Tools / Libraries |
 |-----------|-------------------|
 | Programming | Python |
-| Frameworks | TensorFlow / Keras |
+| Deep Learning | TensorFlow / Keras |
 | Hand Tracking | MediaPipe |
-| Deep Learning | Convolutional Neural Networks (CNN) |
-| Visualization | OpenCV, Matplotlib |
-| Dataset Handling | NumPy, Pandas |
+| Computer Vision | OpenCV |
+| Data Handling | NumPy, Pandas |
+| Visualization | Matplotlib |
 
 ---
 
-## 🧮 Model Implementation
+## 🧮 Model Workflow  
 
-1. **Palm Detection & Hand Landmark Extraction**  
-   - Implemented using **MediaPipe Hands** to detect and track real-time hand landmarks.
+1. **Palm Detection & Landmark Extraction**  
+   → Using **MediaPipe Hands** for precise hand landmark detection.  
 
-2. **Feature Extraction with CNN**  
-   - CNN trained on preprocessed image dataset for accurate gesture classification.
+2. **Feature Extraction via CNN**  
+   → Convolutional layers capture essential gesture features.  
 
-3. **Model Training & Validation**  
-   - Achieved **97% accuracy** on test dataset.
-   - Optimized model performance using batch normalization and dropout layers.
-
----
-
-## 🚀 Results & Performance
-
-- ✅ Achieved **97% overall accuracy**
-- ✅ Real-time gesture prediction with low latency
-- ✅ Robust to varying hand orientations and lighting conditions
+3. **Training & Validation**  
+   → Achieved **97% accuracy** with optimized hyperparameters.  
 
 ---
 
-## 🌱 Future Enhancements
+## 🚀 Results  
 
-- 🔊 Integrate **text-to-speech** for auditory output  
-- 🤖 Add **multi-hand gesture** and **word-level recognition**  
-- ☁️ Deploy as a **web or mobile application**  
-- 🧩 Expand dataset for **numerical and symbolic gestures**
+- 🟢 **Accuracy:** 97% on test data  
+- ⚡ **Real-Time Prediction:** Low latency  
+- ✋ **Robust Recognition:** Works across lighting & hand orientations  
 
 ---
 
-## 👩‍💻 Author
+## 🌱 Future Enhancements  
 
-**Project Name:** Sign Language Recognition System  
+- 🔊 Integrate **text-to-speech output** for gesture-to-voice translation  
+- 🤖 Support **multi-hand** and **word-level recognition**  
+- ☁️ Deploy on **web / mobile platforms**  
+- 🧩 Extend dataset for **numbers and symbols**  
+
+---
+
+## 👩‍💻 Author  
+
+**Project:** Sign Language Recognition System  
 **Developer:** Rohan Patil.  
 **Core Technologies:** CNN, MediaPipe, TensorFlow, OpenCV  
-**Accuracy:** 97%  
+**Model Accuracy:** 97%  
 
 ---
 
-## 🪴 License
+## 🪴 License  
 
-This project is open-source under the **MIT License** — free to use and modify with attribution.
+This project is licensed under the **MIT License** — free to use, modify, and improve with proper credit.
 
 ---
 
-> _"Breaking Barriers — Empowering Communication through AI and Sign Recognition."_
+> 💡 _“Breaking Barriers — Empowering Communication through AI and Sign Recognition.”_
